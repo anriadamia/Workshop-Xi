@@ -1,0 +1,43 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style-type:none;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header{
+    padding:30px;
+    background-color: rgb(174, 174, 174);
+}
+header ul{
+    width:600px;
+    
+}
+
+header ul a{
+    padding:5px 10px;
+    color:#000000;
+}
+
+.passwords{
+    width:500px;
+    margin:50px auto;
+    
+}
+.passwords input, .passwords .check{
+    padding:15px ;
+    width:100%;
+    outline:none;
+    margin-bottom:20px;
+    border:1px solid #000000;
+}
+.passwords .check{
+    background-color:rgb(131, 135, 137);
+    text-align:center;
+    cursor:pointer;
+}
